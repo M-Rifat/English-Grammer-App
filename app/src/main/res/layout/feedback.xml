@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#179A8E">
+
+        <EditText
+            android:id="@+id/et1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email "
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:layout_marginBottom="20dp"
+            />
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="Comments "
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/white"
+            android:textSize="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="40dp"
+            android:text="Rate this app"
+            android:textSize="15dp"
+            android:textColor="@android:color/primary_text_dark"
+            />
+        <RatingBar
+            android:id="@+id/rtbar"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:progressBackgroundTint="#C1D5E4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="0.5"
+            android:numStars="5" android:scaleY="0.9"  android:scaleX="0.9"
+            android:progressTint="#FF9800"/>
+
+        <Button
+            android:id="@+id/bt"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:layout_width="150dp"
+            android:backgroundTint="#FFFFFF"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="Send"
+            />
+
+</LinearLayout>

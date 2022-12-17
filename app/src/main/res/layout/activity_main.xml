@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#179A8E"
+    tools:context=".MainActivity"
+    tools:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/hexaframecf"
+                android:gravity="center"
+                android:text="English Grammer "
+                android:textColor="#179A8E"
+                android:textSize="30dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="1.The Sentence"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="2.The Phrase"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="3.The Clause"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt4"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="4.Parts of Speech"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt5"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="5.Article"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt6"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="6.Tense"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt7"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="7.RIGHT FORM OF VERBS"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt8"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="8.Preposition"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt9"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="9.Transformation of sentences"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt10"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="10.Voice"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt11"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="11.Completing Sentence"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt12"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="12.Narration"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt13"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="13.Suffix &amp; Prefix"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt14"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="14.Idioms &amp; Phrases"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt15"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="#0C6C6B"
+            android:fontFamily="sans-serif"
+            android:text="15.Tag Question"
+            android:textAlignment="textStart"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/white" />
+    </LinearLayout>
+</ScrollView>
